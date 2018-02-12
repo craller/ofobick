@@ -1,0 +1,79 @@
+/* pages/warn/warn.wxss */
+.container{
+  background-color: #f2f2f2; 
+}
+.choose{
+  background-color: #fff;
+}
+.title{
+  font-size: 28rpx;
+  background-color: #f2f2f2;
+  padding: 30rpx 0 30rpx 40rpx;
+}
+.choose-grids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50rpx;
+}
+.choose-grids .grid{
+  width: 45%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border: 2px solid #b9dd08;
+  margin-top: 36rpx;
+  border-radius: 6px;
+}
+.choose-grids .grid:nth-of-type(1),.choose-grids .grid:nth-of-type(2){
+  margin-top: 0;
+}
+.action{
+  background-color: #fff;
+}
+.action .action-pic{
+   padding: 40rpx 0 30rpx 40rpx;
+}
+.action .action-pic image{
+  height: 120rpx;
+  width: 120rpx;
+  margin-left: 25rpx;
+  position: relative;
+  overflow: visible;
+}
+.action .action-pic image icon{
+   position: absolute;
+   right: -20rpx;
+   top: -20rpx;
+}
+.action .action-pic .add{
+   height: 120rpx;
+   width: 120rpx;
+   border: 2px dotted #ccc;
+   display: inline-block;
+   font-size: 24rpx;
+   color: #ccc;
+   line-height: 120rpx;
+   text-align: center;
+   vertical-align: top;
+   margin-left: 25rpx;
+}
+.action .action-input{
+  border-top:40rpx solid #f2f2f2;
+  background-color: #fff;
+}
+.action .action-input input{
+  padding-left: 40rpx;
+   padding-top: 30rpx;
+   padding-bottom: 30rpx;
+}
+.action-submit{
+  padding: 40rpx;
+}
+.action .action-input input:first-child{
+  border-bottom: 5px solid #f2f2f2;
+}
+button{
+  width: 90%;
+  background-color: #f2f2f2;
+}

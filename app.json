@@ -1,0 +1,16 @@
+{
+  "pages":[
+     "pages/index/index",
+      "pages/scancode/scancode" ,
+      "pages/billing/billing",
+      "pages/warn/warn",
+      "pages/my/my",
+      "pages/wallet/wallet",
+      "pages/charge/charge"
+  ],
+  "window":{
+      "navigationBarBackgroundColor": "#b9dd08",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "共享单车"
+  }
+}
